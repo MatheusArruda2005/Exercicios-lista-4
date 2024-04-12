@@ -4,8 +4,7 @@ while True:
     print(f"Tabuada Do Numero: {num}")
     for i in range(1,11):
         print(num, "X", i, "=", num * i)
-    if num > 10:
-        print("Insira um numero valido\n")
-        continue
- 
-        
+ if num > 10 or num < 0:
+  print("Insira um numero valido\n")
+  continue
+       
