@@ -7,5 +7,5 @@ while True:
     if num > 10:
         print("Insira um numero valido\n")
         continue
- break
+ 
         
